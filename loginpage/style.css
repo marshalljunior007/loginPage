@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(./bg-intro-desktop.png);
+}
+.container {
+  display: flex;
+  padding: 40px;
+  margin: 20px;
+  align-items: center;
+}
+
+.login {
+  margin-left: 5px;
+}
+
+form {
+  width: 500px;
+  padding: 10px 0;
+  background-color: aliceblue;
+  align-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+  box-shadow: 5px 5px 10px #8b8686;
+}
+.text-section {
+  width: 600px;
+  color: white;
+  margin-left: 60px;
+  text-align: left;
+  justify-content: center;
+}
+
+.text-section h1 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+.text-section p {
+  text-align: left;
+  font-family: sans-serif;
+  word-spacing: 3px;
+  margin: 10px;
+  color: white;
+}
+
+.btn1 {
+  background-color: hsl(248, 32%, 49%);
+  border: none;
+  margin-bottom: 10px;
+  height: 50px;
+  width: 500px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.btn1 span {
+  font-weight: 20;
+}
+
+form input {
+  height: 25px;
+  padding: 10px;
+  width: 400px;
+  margin: 10px;
+  outline: none;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.btn-2 {
+  height: 40px;
+  text-align: center;
+  width: 420px;
+  color: white;
+  font-family: sans-serif;
+  background-color: hsl(154, 59%, 51%);
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-2:hover {
+  box-shadow: 0 10px 10px #abb3ac;
+}
+.bottom {
+  font-size: small;
+  font-family: sans-serif;
+  margin: 10px;
+}
+
+.bottom a {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
